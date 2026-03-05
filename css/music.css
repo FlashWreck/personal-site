@@ -1,3 +1,7 @@
+html {
+  overscroll-behavior: none;
+}
+
 body {
   display: block;
   height: auto;
