@@ -216,16 +216,23 @@ body {
 
 .social-card {
   grid-column: span 4;
-  padding: 1.5rem;
+  padding: 1.75rem;
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .social-link {
   color: #a6adc8;
   font-size: 1.8rem;
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .social-link:hover {
@@ -253,6 +260,12 @@ body {
 
   .social-card {
     grid-column: span 1;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  .social-link {
+    font-size: 1.75rem;
   }
 }
 
