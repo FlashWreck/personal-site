@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FlashWreck - Music</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/landing.css">
+  <link rel="stylesheet" href="css/music.css">
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  
+  <div class="music-container">
+    <a href="index.html" class="back-btn">
+      <i class="fas fa-arrow-left"></i> Back to Home
+    </a>
+
+    <div class="music-header">
+      <h1>My Favorite Albums</h1>
+    </div>
+
+    <div class="album-grid">
+      <a href="https://open.spotify.com/album/48D1hRORqJq52qsnUYZX56" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/ziggy-stardust.webp" alt="Ziggy Stardust" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Ziggy Stardust</div>
+        <div class="album-artist">David Bowie</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/5dN7F9DV0Qg1XRdIgW8rke" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/american-idiot.webp" alt="American Idiot" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">American Idiot</div>
+        <div class="album-artist">Green Day</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/468ZwCchVtzEbt9BHmXopb" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/meddle.webp" alt="Meddle" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Meddle</div>
+        <div class="album-artist">Pink Floyd</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/2cUpAOlQjV5uSjkWj5bEQY" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/atom-heart-mother.webp" alt="Atom Heart Mother" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Atom Heart Mother</div>
+        <div class="album-artist">Pink Floyd</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/2xGMvroBbxek49QWF0hzpI" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/dark-side-of-the-moon.webp" alt="Dark Side of the Moon" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Dark Side of the Moon</div>
+        <div class="album-artist">Pink Floyd</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/5F0IQXuHfTV7SBvZVnXERl" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/the-division-bell.webp" alt="The Division Bell" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">The Division Bell</div>
+        <div class="album-artist">Pink Floyd</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/5Dbax7G8SWrP9xyzkOvy2F" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/the-wall.webp" alt="The Wall" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">The Wall</div>
+        <div class="album-artist">Pink Floyd</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/3b4E89rxzZQ9zkhgKpj8N4" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/animals.webp" alt="Animals" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Animals</div>
+        <div class="album-artist">Pink Floyd</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/0bCAjiUamIFqKJsekOYuRw" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/wish-you-were-here.webp" alt="Wish You Were Here" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Wish You Were Here</div>
+        <div class="album-artist">Pink Floyd</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/1KVGLuPtrMrLlyy4Je6df7" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/bleach.webp" alt="Bleach" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Bleach</div>
+        <div class="album-artist">Nirvana</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/7wOOA7l306K8HfBKfPoafr" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/in-utero.webp" alt="In Utero" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">In Utero</div>
+        <div class="album-artist">Nirvana</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/2UJcKiJxNryhL050F5Z1Fk" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/nevermind.webp" alt="Nevermind" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Nevermind</div>
+        <div class="album-artist">Nirvana</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/29sTacnS0qA9xri6YS8xLA" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/superunknown.webp" alt="Superunknown" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Superunknown</div>
+        <div class="album-artist">Soundgarden</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/1IVa98im1RfxYp6qeOIg2B" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/down-on-the-upside.webp" alt="Down on the Upside" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Down on the Upside</div>
+        <div class="album-artist">Soundgarden</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/00BBpx0gG4KfQtxSJBPKUZ" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/obscured-by-clouds.webp" alt="Obscured By Clouds" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Obscured By Clouds</div>
+        <div class="album-artist">Pink Floyd</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/abbey-road.webp" alt="Abbey Road" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Abbey Road</div>
+        <div class="album-artist">The Beatles</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/7ycBtnsMtyVbbwTfJwRjSP" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/to-pimp-a-butterfly.webp" alt="To Pimp a Butterfly" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">To Pimp a Butterfly</div>
+        <div class="album-artist">Kendrick Lamar</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/4mA3RKIoEoX4JlJSHueQae" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/red.webp" alt="Red" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">Red</div>
+        <div class="album-artist">King Crimson</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/1Lzi2p6CUH156zbJTcOjNX" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/in-the-court-of-the-crimson-king.webp" alt="In the Court of the Crimson King" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">In the Court of the Crimson King</div>
+        <div class="album-artist">King Crimson</div>
+      </a>
+
+      <a href="https://open.spotify.com/album/68W3ppXWhsOLOURmxzRkyA" target="_blank" class="album-card">
+        <div class="album-art">
+          <img src="assets/albumcovers/in-the-wake-of-poseidon.webp" alt="In the Wake of Poseidon" width="400" height="400" loading="lazy">
+        </div>
+        <div class="album-title">In the Wake of Poseidon</div>
+        <div class="album-artist">King Crimson</div>
+      </a>
+    </div>
+  </div>
+
+  <script src="js/prism.js"></script>
+  <script src="js/music.js"></script>
+</body>
+</html>
+
