@@ -10,8 +10,37 @@
   <link rel="stylesheet" href="css/music.css">
 </head>
 <body>
-  <canvas id="canvas"></canvas>
-  
+  <canvas id="canvas" class="prism-canvas"></canvas>
+  <canvas id="glowCanvas" class="glow-canvas"></canvas>
+
+  <div class="scene">
+    <div class="pyramid-container">
+      <div class="face front">
+        <svg viewBox="0 0 200 223.6">
+          <polygon points="100,0 200,223.6 0,223.6" />
+        </svg>
+        <div id="track-p1" style="position: absolute; top: 0; left: 100px; width: 0; height: 0;"></div>
+        <div id="track-p2" style="position: absolute; bottom: 0; left: 0; width: 0; height: 0;"></div>
+        <div id="track-p3" style="position: absolute; bottom: 0; left: 200px; width: 0; height: 0;"></div>
+      </div>
+      <div class="face right">
+        <svg viewBox="0 0 200 223.6">
+          <polygon points="100,0 200,223.6 0,223.6" />
+        </svg>
+      </div>
+      <div class="face back">
+        <svg viewBox="0 0 200 223.6">
+          <polygon points="100,0 200,223.6 0,223.6" />
+        </svg>
+      </div>
+      <div class="face left">
+        <svg viewBox="0 0 200 223.6">
+          <polygon points="100,0 200,223.6 0,223.6" />
+        </svg>
+      </div>
+    </div>
+  </div>
+
   <div class="music-container">
     <a href="index.html" class="back-btn">
       <i class="fas fa-arrow-left"></i> Back to Home
